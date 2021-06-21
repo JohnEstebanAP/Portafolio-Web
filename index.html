@@ -5,62 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio John Esteban AP</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/stilos.css">
 </head>
 <body>
-    <header>
-        <div>
-            <figure>
+    <header class="header">
+        <div >
+            <figure class ="Logo">
                 <img src="img/logo.png" alt="Logo de http://JohnEsteban.com">
             </figure>
     
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
 
                     <li>
-                        <a href="#experiencia">Experiencia</a>
+                        <a class="link" href="#experiencia">Experiencia</a>
                     </li>
 
                     <li>
-                        <a href="#contacto">Trabajemos juntos</a>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </div>
     </header> 
-        <section>
+        <section class="hero">
             <h1>
-                Hola! Soy <strong>John Esteban</strong> Desarrollador 
-                <br/> de  <strong>Aplicaciones Web, Movil y de Escritorio</strong>
-                <br/> apasionado por la <strong>educación, el progresó, la innovación y la tecnología</strong>.
+                ¡Hola! Soy <strong>John Esteban</strong> Desarrollador 
+                <br/>de <strong>Aplicaciones Web,Movil y de Escritorio</strong>
+                <br/>apasionado  por la <strong>educación, 
+                <br/>el progresó, la innovación y la tecnología</strong>.
             </h1>
             <img src="img/hero.jpg" width="500px" height="300px" alt="Imagen principal del sitio">
         </section>
 
-        <section id="portafolio">
+        <section class="portfolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
-            <article>
-                <h3>Platzi Video</h3> 
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha: 01/07/2018</strong></small></p>
-                <p><small><strong>Puedes verlo en::</strong> www.platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo 
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3> 
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha: 01/07/2018</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en::</strong> www.platzi.com/native</small></p>
+                    <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo 
                     para crear la mejor app para enseñar el funcionamiento
-                    de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados
-                </p>
-                <img src="img/platzi-video-react-native.png" width="500px" alt="proyecto del curso de react native">
+                    de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados</p>
+                </div>
+         
+                <figure>
+                    <img src="img/platzi-video-react-native.png" width="500px" alt="proyecto del curso de react native">
+                </figure>
             </article>
         </section>
 
         <section id="experiencia">
             <h2>Más sobre mi Experiencia</h2>
-            <article>
-                <figure>
-                    <img src="img/platzi-conf.jpg" width="500px" alt="">
+            <article class="event">
+                <figure class="event-imgContainer">
+                    <img class"event-img" src="img/platzi-conf.jpg" width="500px" alt="">
                 </figure>
                 <h3>PlatziConf México 2018</h3>
                 <p>El evento más grande que quiere aprender más de internet. En este evento te comparto como tener una vida de constante aprendizaje.</p>
@@ -68,17 +75,14 @@
             </article>
         </section>
 
-        <section id="contacto">
+        <section class="contact" id="contacto">
             <from action="/suscripcion/">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
             </from>
         </section>
-        <footer>
-
-
-
+        <footer class="footer">
         </footer>
 </body>
 </html>
