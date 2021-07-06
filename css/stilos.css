@@ -113,7 +113,8 @@ h2{
     width: 1325px;
     margin: 0 auto;
     display: inherit;
-    justify-content: inherit;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
     align-items: inherit;
     height: inherit;
     flex-wrap:inherit; 
@@ -126,7 +127,7 @@ h2{
 .project{
 
     display:flex;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding-left: 25px;
     background-color: white;
     box-shadow: 0 0 6px #ced6da;
@@ -365,39 +366,61 @@ figure{
 }
 
 .event{
-    margin: 10px;
-    width: 480px;
+    margin-bottom: 30px;
+    width: 605px;
+    height:650px;
     flex-shrink:0;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f4fbff;
+    box-shadow: 0 0 6px #ced6da;
 }
 
 .event img{
-    width: 480px;
-    height: 200px;
+    width: 650px;
+    height: 325px;
     object-fit: cover;
 }
 
 .event-detail{
     margin: 20px 40px;
-    margin-top: -40px;
+    margin-top: -70px;
     background-color: white;
     position: relative;
     padding: 20px;
-    text-align: center 
+    text-align: center; 
+    height: 320px;
+}
+
+.event-title{
+    font-size:30px;
+    margin-top: 10;
+    margin-bottom: 30px;
+    color: #1d252c;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 .event-description{
     text-align: left;
+    color: #737373;
+    margin: 10px 0;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 35px
 }
 
 .event-url{
     color:#056fff;
     border: 1px solid;
-    padding: 5px 20px;
+    padding: 10px 90px;
     text-decoration: none; 
     border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 
