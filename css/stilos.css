@@ -340,21 +340,6 @@ figure{
 }
 */
 
-.footer{
-    background-color: #1b2127;
-    color:white;
-    display: flex;
-    align-items: center ; 
-    justify-content: space-between;
-}
-
-.footer img{
-    vertical-align: middle; /*para alinear el texto centrado junto con la imagen*/
-}
-
-.footer a{
-    color: white;
-}
 
 .experiencia-list{
     display: flex; 
@@ -424,22 +409,57 @@ figure{
 }
 
 
+.container-decoration-contact{
+    display: flex;
+    height: 100px;
+    align-items: end;
+    margin: 0;
+    padding:0;
+    background-color: #056fff;
+    border-left: 25px solid white;
+}
+
+
+.decoration-contact{
+    height: 45px;
+    width: 35px;
+    border: 2px solid white;
+    background-color: white;
+    border-Top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 35px;
+}
+
+.container-decoration-contact h2 {
+    color:white; 
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;/*para qeu el testo este en negrita*/ 
+    font-size: 32px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
 .contact{
     background-color: #056fff;
     color:white;
-    height: 200px;
+    height: 180px;
     display: flex;
-    align-items: center; 
+    align-items: flex-start; 
     justify-content: space-between;
+    padding: 0 100px;
+    padding-top: 20px;
 }
 
 
 .social-link{
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
+    width: 80px;
+    height: 80px;
+    margin: 0 30px;
     background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .social-link.twitter{
@@ -459,15 +479,19 @@ figure{
 }
 
 .form-email input{
-    border-color: rgb(214, 230, 229);
-    padding: 10px 20px 10px 25px;
-    border-radius: 5px;
+    width: 340px;
+    height: 35px;
+    border-color:#888585;
+    padding: 10px 10px 10px 50px;
+    border-radius: 8px;
     border-style: solid;
     background-image: url("/img/envelope.svg");
-    background-size: 15px 15px;
+    background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: 5px;;
+    background-position-y: center;
+    background-position-x: 15px;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .form-email button{
@@ -476,11 +500,20 @@ figure{
     background: transparent;
     color:white;
     padding: 10px 0; 
-    border-radius: 5px;
-    width:100px;
+    border-radius: 8px;
+    width:200px;
+    height: 55px;
     /*margin: 10px auto 0;*/
-    margin-top: 10px; 
+    margin-top: 15px; 
     border-color: white;
+    font-size: 23px;
+    font-weight: 500; 
+}
+
+button:hover{
+    opacity: 0.6;
+    text-decoration:dashed;
+    border-color: rgb(52, 11, 201);
 }
 
 .form-email h3{
@@ -488,3 +521,41 @@ figure{
    
 }
 
+
+
+.footer{
+    background-color: #1d252c;
+    color:white;
+    display: flex;
+    align-items: center ; 
+    justify-content: space-between;
+   /* height: 100px;*/
+}
+
+.footer img{
+    vertical-align: middle; /*para alinear el texto centrado junto con la imagen*/
+}
+
+.footer a{
+    color: white;
+}
+
+.footer Strong {
+
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+
+}
+
+#punto {
+    font-size: 70px;
+    margin: 0 10px;
+    padding-bottom: 28px;
+    height: 100px;
+}
+
+.TextoCurso{
+    display: flex;
+    align-items: center;
+}
