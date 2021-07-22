@@ -94,9 +94,10 @@ h2{
     color:#026fff; 
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;/*para qeu el testo este en negrita*/ 
-    font-size: 30px;
-    letter-spacing: 1px;
+    /*font-weight: bold;/*para qeu el testo este en negrita*/ 
+    font-weight: 1000;
+    font-size: 31px;
+    letter-spacing: 0.2px;
 }
 
 .container-portafolio{
@@ -145,61 +146,62 @@ h2{
 
 }
 .project-title{
-    font-size:40px;
+    font-size:42px;
     margin-top: 0;
     margin-bottom: 10px;
     color: #1d252c;
-    letter-spacing: 1px;
-    font-weight: lighter;
+    letter-spacing: 0px;
+    font-weight: 200;
 }
 
 .project-course{
     color: #737373;
     margin: 10px 0;
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project-date{
     color: #737373;
     margin: 10px 0;
     letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 600;
 }
 .project-date strong{
-    font-size:20px;
+    font-size:21px;
     margin-top: 0;
     margin-bottom: 10px;
     color: #1d252c;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-weight: lighter;
 }
 
 .project-url{
     color: #737373;
     margin: 10px 0;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 21px;
+    font-weight: 600;
 }
 .project-url strong{
-    font-size:20px;
+    font-size:21px;
     margin-top: 0;
     margin-bottom: 10px;
     color: #1d252c;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-weight: lighter;
 }
 
 .project-description{
-    font-size:21px;
+    font-size:23px;
     margin-top: 30px;
     margin-bottom: 10px;
     color: #1d252c;
-    letter-spacing: 1px;
-    font-weight: bold;
+    letter-spacing: 0px;
+    font-weight: 600;
     line-height: 35px;
 }
 
@@ -239,8 +241,8 @@ h2{
     color: white;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;/*para qeu el testo este en negrita*/ 
-    letter-spacing: 1px;
+    font-weight: 600;/*para qeu el testo este en negrita*/ 
+    letter-spacing: 0.8px;
     font-size: 25px;
     height:inherit;
     margin:20px;
@@ -391,10 +393,10 @@ figure{
     color: #737373;
     margin: 10px 0;
     margin-bottom: 35px;
-    letter-spacing: 1px;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 35px
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 .event-url{
@@ -404,7 +406,7 @@ figure{
     text-decoration: none; 
     border-radius: 5px;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -481,7 +483,7 @@ figure{
 .form-email input{
     width: 340px;
     height: 35px;
-    border-color:#888585;
+    border-color:#9b9797;
     padding: 10px 10px 10px 50px;
     border-radius: 8px;
     border-style: solid;
@@ -491,7 +493,7 @@ figure{
     background-position-y: center;
     background-position-x: 15px;
     font-size: 22px;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .form-email button{
@@ -508,6 +510,7 @@ figure{
     border-color: white;
     font-size: 23px;
     font-weight: 500; 
+    letter-spacing: 1px;
 }
 
 button:hover{
@@ -558,4 +561,6 @@ button:hover{
 .TextoCurso{
     display: flex;
     align-items: center;
+
+    corrección tamanio y negrita de la letra
 }
